@@ -1,0 +1,408 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:Arial,Tahoma,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}.my-logo{position:fixed;bottom:0;left:0;margin:0;padding:0}.my-logo__pic{border:0;vertical-align:middle;width:50px;height:50px}body{margin:0;padding:0;font:1em/1.4em sans-serif;color:#353535}
+/*Copyright www.Master-CSS.com*/.my-logo{position:fixed;bottom:0;left:0;margin:0;padding:0;}.my-logo__pic{border:0;vertical-align:middle;width:50px;height:50px;}
+
+/*My style*/
+
+
+
+
+
+
+body {
+  background: url(../images/bg1.jpg) top repeat-x #ffffff;
+  font: 12px Arial, Helvetica, sans-serif;
+  color: #000000;
+  line-height: 18px;
+}
+
+h2 {
+  font: 18px Arial, Helvetica, sans-serif;
+  line-height: 18px;
+}
+
+.container__bg_top {
+  background: url(../images/bg3.jpg) center top no-repeat;
+  width: 1014px;
+  padding-top: 41px;
+  margin: 0 auto 0 auto;
+}
+
+.container__bg_bottom {
+  background: url(../images/bg2.jpg) bottom center repeat-x;
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+
+.header {
+  width:100%;
+  background: url(../images/header.jpg) left top no-repeat;
+  height: 330px;
+}
+
+.menu {
+  background: url(images/bg_but.jpg) left top no-repeat;
+  text-align:center;
+  height: 116px;
+  margin-left: 444px;
+  padding-top: 4px;
+}
+
+.menu a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: block;
+  float: left;
+  height: 66px;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.but {
+  width: 110px;
+}
+
+.but:hover {
+  background: url(../images/but_hover.png) center center no-repeat;
+  text-decoration: none;
+}
+
+
+.sign {
+  float: right;
+  margin: 120px 47px 0 300px;
+}
+
+.sign a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sign h2 {
+  font: 16px Arial;
+  line-height: 18px;
+  font-style: italic;
+  font-weight:100;
+  text-transform: lowercase;
+}
+
+.sign p {
+  padding-top: 5px;
+  font: 12px Arial;
+  line-height: 18px;
+  font-style: italic;
+}
+
+
+
+
+.main_top {
+  background: url(../images/main_top.gif) no-repeat;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 20px;
+}
+
+.main_bot {
+  background: url(../images/main_bot.gif) bottom no-repeat;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 19px;
+}
+
+.content {
+  background: url(../images/main.gif) repeat-y;
+  height: 535px;
+}
+
+.left_main {
+  float: left;
+}
+
+.news {
+  margin-top: -4px;
+  margin-bottom: 5px;
+}
+
+.news a {
+  padding-left: 15px;
+  margin: 0;
+  color: #fff;
+  font: 18px Arial;
+  text-decoration: none;
+}
+
+
+.all_box{
+  width: 244px;
+  height: 112px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.box1 {
+  background: url(../images/box1.gif) no-repeat;
+  margin-top: 3px;
+}
+
+.box2 {
+  background: url(../images/box2.gif) no-repeat;
+}
+
+.box3 {
+  background: url(../images/box3.gif) no-repeat;
+}
+
+.box4 {
+  background: url(../images/box4.gif) no-repeat;
+}
+
+.box_text, .box_h3 {
+  padding-left: 30px;
+}
+
+.box_h3 {
+  background: url(../images/fish_left.png) 8px 12px no-repeat;
+  color: #014377;
+  font: 12px Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  padding-top: 8px;
+}
+
+.box_text {
+  font: 11px Arial, Helvetica, sans-serif;
+  line-height: 18px;
+  padding-right: 5px;
+  padding-top: 7px;
+  color: #000000;
+}
+
+.bold{
+  font: 12px Arial, Helvetica, sans-serif;
+  text-align:right;
+  padding-right:10px;
+  padding-top: 3px;
+  font-weight:bold;
+}
+
+.bold a{
+  color: #014377;
+  text-decoration: underline;}
+
+.bold a:hover {
+  text-decoration:none;}
+
+.center_main {
+  float: left;
+  width: 485px;
+  margin-left: 10px;
+}
+
+.h2_center_main1 {
+  color: #014377;
+  font-weight: 100;
+  background: url(../images/tit_c.gif) bottom repeat-x;
+  text-align:left;
+  font-size:18px;
+  padding: 0 0 6px 7px;
+  margin: 0;
+  font: 18px Arial, Helvetica, sans-serif;
+}
+
+.p_underline {
+  color: #01438C;
+  font: 12px Arial;
+  line-height: 18px;
+  padding-left: 10px;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.img_comp {
+  padding: 10px;
+  float: left;
+}
+
+.p_text {
+  font: 12px Arial;
+  line-height: 18px;
+  color: #000000;
+  padding-top: 15px;
+}
+
+.h2_center_main2 {
+  color: #014377;
+  font-weight: 100;
+  background: url(../images/tit_c.gif) bottom repeat-x;
+  text-align:left;
+  font-size:18px;
+  padding: 2px 2px 6px 7px;
+  margin-top: 20px;
+  font: 18px Arial, Helvetica, sans-serif;
+}
+
+.list_cont {
+  list-style: decimal;
+  margin-top: 5px;
+  margin-left: 50px;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.list_cont li {
+  padding-top: 5px;
+}
+
+
+
+.text_box_left  {
+  width: 240px;
+  float: left;
+  margin-top: 50px;
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 18px;
+}
+
+.color_green_a {
+  color: #1A8421;
+}
+
+.text_box_right  {
+  width: 240px;
+  float: left;
+  margin-top: 50px;
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 18px;
+}
+
+.color_blu_a {
+  color: #1FB59C;
+}
+
+.text_box_center a:hover {
+  text-decoration: none;  
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+.right_main {
+  width: 250px;
+  color: aqua;
+  float: left;
+  margin-left: 10px;
+  margin-top: -10px;
+  
+}
+
+.categories_img {
+  background: url(../images/tit_right1.gif) no-repeat;
+  width: 245px;
+  height: 34px;
+  padding-left: 135px;
+  color: #fff;
+  font: 18px Arial, Helvetica, sans-serif;
+}
+
+.bar_text {
+  height: 100%;
+  width: 245px;
+  background: #DCEEFC;
+}
+
+.archives_img {
+  background: url(../images/tit_right2.gif) no-repeat;
+  width: 245px;
+  height: 34px;
+  padding-left: 135px;
+  color: #fff;
+  font: 18px Arial, Helvetica, sans-serif;
+}
+
+.month_menu {
+  height: 100%;
+  width: 245px;
+  background: #FFFFFF;
+}
+
+.month {
+  color: #01438C;
+  font: 11px Arial, Helvetica, sans-serif;
+  line-height: 18px;
+  text-decoration: underline;
+  background: url(../images/fish_left.png) 10px 16px no-repeat;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.information_bot {
+  text-align: center;
+  color: #fff;
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 18px;
+  padding-top: 10px;
+  float: left;
+  padding: 20px 0 0 510px;
+  text-decoration: none;
+}
+
+.information_bot a:hover {
+  text-decoration: underline;
+}
+.information_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.footer {
+  background: #ffffff;
+  text-align: center;
+  color: #000;
+  height: 18px;
+  width: 100%;
+  font: 9px Arial, Helvetica, sans-serif;
+  line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media*/
+@media screen and (max-width: 1160px){
+
+}
+    
+@media screen and (max-width: 800px){
+    
+}
+
+@media screen and (max-width: 480px){
+   
+}
